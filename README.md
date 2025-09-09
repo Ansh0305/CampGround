@@ -67,10 +67,15 @@ npm install
 Create a .env file in the root directory and add:
 
 CLOUDINARY_CLOUD_NAME=your_cloud_name
+
 CLOUDINARY_KEY=your_api_key
+
 CLOUDINARY_SECRET=your_api_secret
+
 MAPTILER_API_KEY=your_api_key
+
 MONGO_URI=your_mongodb_uri
+
 SESSION_SECRET=your_secret_key
 
 4️⃣ Run the application
@@ -104,4 +109,5 @@ Open a Pull Request 🚀
 📜 License
 
 This project is licensed under the MIT License.
+
 
