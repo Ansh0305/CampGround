@@ -91,6 +91,7 @@ MONGO_URI=your_mongodb_uri
 
 SESSION_SECRET=your_secret_key
 
+
 4️⃣ Run the application
 npm start
 
@@ -122,6 +123,7 @@ Open a Pull Request 🚀
 📜 License
 
 This project is licensed under the MIT License.
+
 
 
 
