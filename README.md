@@ -1,5 +1,4 @@
-﻿# CampGround
-🌲 IndiCamp
+﻿# 🌲 IndiCamp
 
 A full-stack web application for exploring, creating, and reviewing campgrounds.
 
@@ -123,6 +122,7 @@ Open a Pull Request 🚀
 📜 License
 
 This project is licensed under the MIT License.
+
 
 
 
