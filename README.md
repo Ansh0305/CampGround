@@ -40,18 +40,31 @@ Other Tools: MapTiler, Joi Validation, Method Override
 📂 Project Structure
 CampGround-main/
 │── app.js              # Entry point
+
 │── middleware.js       # Custom middlewares
+
 │── schemas.js          # Joi validation schemas
+
 │── package.json        # Dependencies & scripts
+
 │
+
 ├── controllers/        # Business logic
+
 ├── models/             # Mongoose models
+
 ├── routes/             # Express routes
+
 ├── views/              # EJS templates
+
 ├── public/             # Static assets (CSS, JS)
+
 ├── cloudinary/         # Cloudinary config
+
 ├── seeds/              # Sample DB seeds
+
 └── Utilities/          # Helper utilities
+
 
 ⚡ Installation & Setup
 
@@ -109,5 +122,6 @@ Open a Pull Request 🚀
 📜 License
 
 This project is licensed under the MIT License.
+
 
 
