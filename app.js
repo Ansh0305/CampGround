@@ -22,7 +22,7 @@ const userRoutes = require('./routes/users.js')
 const MongoStore = require("connect-mongo");
 // const dbUrl = process.env.DB_URl;
 
-const dbUrl = "mongodb://localhost:27017/yelp-camp" || process.env.DB_URl;
+const dbUrl = process.env.DB_URl || "mongodb://localhost:27017/yelp-camp";
 
 mongoose.connect(dbUrl);
 
@@ -45,7 +45,7 @@ app.use(mongoSanitize({
   replaceWith: '_'
 }))
 
-const secret = 'Secret' || process.env.SECRET;
+const secret = process.env.SECRET || 'Secret';
 
 const store = MongoStore.create({
   mongoUrl: dbUrl,
